@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do App</title>
+    <!-- ! Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-warning d-none" role="alert">
+            boş girilmez!!!
+          </div>
+          
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title text-center text-primary">Yapılacak Listesi</h1>
+            </div>
+            <div class="card-body">
+                <div class="input-group">
+                    <label for="to-do" class="input-group-text">Ne yapacakasın?</label>
+                    <input type="text" id="to-do" class="form-control">
+                    <button class="btn btn-info" onclick="kaydet()">Kaydet</button>
+                </div>
+            </div>
+            <div class="card-footer m-0 p-0" id="wrapper">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ! Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- ! Fontawesome -->
+    <script src="https://kit.fontawesome.com/756c2fd4b9.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
